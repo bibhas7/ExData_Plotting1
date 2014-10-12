@@ -12,6 +12,6 @@ plot3 <- function(file="exdata-data-household_power_consumption/household_power_
   lines(dateTime,sm1)
   lines(dateTime,sm2,pch=".",col="red")
   lines(dateTime,sm3,pch=".",col="blue")
-  legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),pch=20,col=c("black","red","blue"))
+  legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1,1),lwd=c(2,2,2),col=c("black","red","blue"))
   dev.off()
 }
